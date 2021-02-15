@@ -9,6 +9,6 @@ The main idea here is futsal owners and users can login to their portals.
 # CASE 4
 - For this lets assume that login will be built later.
 - Use auth="pulic" for now to test it.
-- Create a controller for listing futsal grounds.
-    - Return list of futsal grounds with their owner's info
-    - Return info about individual futsal ground
+- Create a controller for listing futsal users.
+    - Return list of futsal users
+    - Return info about individual futsal user
