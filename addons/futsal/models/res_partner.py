@@ -6,3 +6,7 @@ class ResPartner(models.Model):
     _description = "Ground Owner"
 
     has_ground = fields.Boolean('The owner has a ground')
+    ground_id = fields.Many2one(
+        'res.ground',
+        string='Ground'
+    )

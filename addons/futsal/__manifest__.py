@@ -23,6 +23,9 @@
     ],
     # always loaded
     'data': [
+        'security/groups.xml',
+        'security/ir.model.access.csv',
         'views/res_partner.xml',
+        'views/res_ground.xml',
     ],
 }
