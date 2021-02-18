@@ -1,0 +1,119 @@
+.hide {
+  display: none;
+}
+.top-region {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+}
+.tittle {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: auto;
+}
+.buttons-box {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+.btn-create-order {
+    grid-column: 4 / 2;
+    grid-row: 1;
+}
+.search-box {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: auto;
+
+}
+.employee_order_list {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.order-row {
+    position: relative;
+}
+.order-row > a {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.order-row-data {
+  position: relative;
+  pointer-events: none;
+  z-index: 1;
+}
+.order-icon a {
+  pointer-events: all;
+  text-align: right;
+}
+.order-row-data {
+    float: left;
+}
+.order-row-icon {
+    width: 25%;
+    float: left;
+    font-size: 1.2em;
+    text-align: right ;
+}
+.order-name {
+    width: 25%;
+    float: left;
+    font-size: 1.2em;
+}
+.order-state {
+    width: 25%;
+    float: left;
+}
+.order-date {
+    width: 25%;
+    float: left;
+}
+.dealer-order-date {
+    width: 15%;
+    float: left;
+}
+.order-employee-name {
+    width: 25%;
+    float: left;
+}
+.order-icon {
+    width: 25%;
+    float: left;
+    font-size: 1.2em;
+    text-align: right;
+}
+.dealer-order-icon {
+    width: 10%;
+    float: left;
+    font-size: 1.2em;
+    text-align: right;
+}
+.dealer-order-icon a {
+  pointer-events: all;
+  text-align: right;
+}
+.text-messages {
+    color: gray;
+}
+.order-action-edit {
+    display: block;
+    padding: 0.85rem 0.85rem;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-top-right-radius: 0.25rem;
+}
+.list-group-item:first-child {
+    border-top-right-radius: unset !important;
+}
+.list-group-item {
+    margin-bottom: 0px !important;
+}
+
+
