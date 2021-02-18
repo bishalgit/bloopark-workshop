@@ -1,0 +1,29 @@
+h2.rb-line {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #3aadaa;
+   line-height: 0.1em;
+   margin: 30px 0 30px;
+}
+
+h2.rb-line span.rb-middle-content {
+    background:#fff;
+    padding:0 10px;
+    color: #3aadaa;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #E9ECEF;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #E9ECEF;
+}

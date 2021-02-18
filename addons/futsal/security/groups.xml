@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<odoo>
+        <record id="group_owner" model="res.groups">
+            <field name="name">Owner</field>
+        </record>
+</odoo>
